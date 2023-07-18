@@ -99,6 +99,12 @@ body {
   margin-top: 5px;
   border-radius: 5px;
   background-color: #3882f6;
+  cursor: pointer;
+}
+
+.welcomebutton button:hover {
+  background-color: #061f47;
+  color: #e5e7eb;
 }
 
 .welcomeSection .welcomeImg {
@@ -111,4 +117,148 @@ body {
 .welcomeImg img {
   width: 60%;
   height: auto;
+}
+
+/*--------------------card section ------------------------*/
+
+.cardsection {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardsection .titlesection {
+  width: 100%;
+  height: 10%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.cardsection .cardcontainer {
+  width: 100%;
+  height: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.cardcontainer div {
+  width: 200px;
+  height: 200px;
+  border: 1px solid black;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.cardcontainer div :hover {
+  background-color: black;
+  color: white;
+  cursor: pointer;
+}
+
+.cardcontainer div .imgsection {
+  border-radius: 20px 20px 0px 0px;
+  width: 100%;
+  height: 100%;
+}
+
+.cardcontainer div .imgsection img {
+  width: 100%;
+  height: 100%;
+  border-radius: 20px 20px 0px 0px;
+}
+
+.cardcontainer div .cardtextsection {
+  padding: 5px 0px 5px 0px;
+  height: 30px;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/*-------------------------------para section---------------------------------------*/
+
+.parasection {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f3cff3d7;
+  padding: 5px;
+}
+
+.parasection p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+
+/*-----------------signup section--------------------------------*/
+
+.signupsection {
+  width: 100%;
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.signupsection .datacontainer {
+  width: 80%;
+  height: 60%;
+  background-color: rgb(165, 171, 245);
+  border-radius: 20px;
+  display: flex;
+}
+
+.datacontainer .textcontain {
+  width: 60%;
+  height: 100%;
+  border-radius: 20px 0px 0px 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 0px 0px 0px 100px;
+  color: #ffffff;
+}
+
+.datacontainer .buttoncontain {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.buttoncontain button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #3882f6;
+  color: #f9faf8;
+  cursor: pointer;
+  border: 1px solid white;
+}
+
+/*-----------------------------footer---------------------------*/
+
+.footer {
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #1f2937;
+  color: #e5e7eb;
 }
