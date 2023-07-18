@@ -1,0 +1,114 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+.headercontainer {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  padding: 5px;
+  justify-content: space-around;
+  background-color: #1f2937;
+}
+
+.headercontainer .logo {
+  width: 30%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+.headercontainer .navLinks {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.headercontainer .navLinks h4 {
+  cursor: pointer;
+}
+
+/*----------------------Welcome section------------------------------*/
+
+.welcomeSection {
+  width: 100%;
+  height: 70vh;
+  display: flex;
+  background-color: #1f2937;
+}
+
+.welcomeSection .welcomeText {
+  width: 50%;
+  height: 100%;
+}
+
+.welcomeText .welcomeMainText {
+  height: 200px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.welcomeText .welcomeMainText h1 {
+  display: inline-block;
+  width: 320px;
+  height: auto;
+  font-size: 48px;
+  color: #f9faf8;
+}
+
+.welcomeText .welcomeSeconText {
+  height: 20%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.welcomeSeconText p {
+  display: inline-block;
+  height: auto;
+  width: 310px;
+  text-align: justify;
+  color: #e5e7eb;
+}
+
+.welcomeText .welcomebutton {
+  width: 67%;
+  display: flex;
+  justify-content: center;
+}
+.welcomebutton button {
+  display: block;
+  width: 100px;
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  background-color: #3882f6;
+}
+
+.welcomeSection .welcomeImg {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.welcomeImg img {
+  width: 60%;
+  height: auto;
+}
